@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse </title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+   <div class="header">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="IMG/logo.png" alt="Logo Expertobra" class="logo-login">
+      </a>
+    </div>
+  </div>
+
+  <!-- Contenedor de registro -->
+  <div class="registro-contenedor">
+
+    <p class="registro-subtitulo">
+      Registre sus datos y pague la suscripción anual para tener acceso a la bolsa de empleo.
+    </p>
+
+    <form class="registro-formulario">
+
+      <div class="seccion-formulario">
+        <h3><i class="bi bi-info-circle"></i> Información Personal</h3>
+
+        <div class="grupo-inputs">
+          <div class="campo">
+            <label><i class="bi bi-person-badge"></i> No. Documento</label>
+            <input type="text" placeholder="Obligatorio">
+          </div>
+
+          <div class="campo">
+            <label><i class="bi bi-person-fill"></i> Nombres Completos</label>
+            <input type="text" placeholder="Obligatorio">
+          </div>
+
+          <div class="campo">
+            <label><i class="bi bi-phone-fill"></i> No. Celular</label>
+            <input type="tel" placeholder="Obligatorio">
+          </div>
+
+          <div class="campo">
+            <label><i class="bi bi-envelope-fill"></i> Email</label>
+            <input type="email" placeholder="Obligatorio">
+          </div>
+
+          <div class="campo">
+            <label><i class="bi bi-briefcase-fill"></i> Profesión</label>
+            <input type="text" placeholder="Obligatorio">
+          </div>
+
+          <div class="campo">
+            <label><i class="bi bi-lock-fill"></i> Contraseña Min 8 Max 10 caracteres.</label>
+            <input type="password" placeholder="Obligatorio">
+          </div>
+        </div>
+        </div>
+
+      <div class="seccion-formulario">
+        <h3><i class="bi bi-card-text"></i> Descripción del Perfil</h3>
+        <textarea placeholder="Describa su perfil profesional y laboral brevemente."></textarea>
+      </div>
+
+      <div class="seccion-formulario">
+        <h3><i class="bi bi-image-fill"></i> Foto</h3>
+        <p class="descripcion-foto">
+          Tipos de archivos permitidos: JPG, JPEG, PNG. Tamaño máximo 50MB.<br>
+          Resolución recomendada 500px x 500px o superior, manteniendo el aspecto cuadrado (1:1)
+        </p>
+        <input type="file" accept="image/*">
+      </div>
+
+      <div class="boton-guardar">
+        <button type="submit"><i class="bi bi-save"></i>GUARDAR</button>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="footer">
+    <p>
+      Copyright © <span>Expertobra SAS</span>. All Rights Reserved.<br>
+      Designed By <a href="#">HTML</a> | Distributed By: <a href="#">Esquivel-Ingeniero</a>
+    </p>
+  </div>
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
