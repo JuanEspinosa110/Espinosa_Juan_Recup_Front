@@ -91,7 +91,7 @@
 
 .ingresar {
   font-weight: bold;
-  color: orange;
+  color: #548c82;
 }
 
 .fondo-index {
@@ -132,7 +132,7 @@
 }
 
 .btn-banner {
-  background-color: orange;
+  background-color: #548c82;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -144,7 +144,7 @@
 }
 
 .btn-banner:hover {
-  background-color: #e69500;
+  background-color: #548c82;
 }
 
 
@@ -238,8 +238,9 @@
   background-color: #00214d;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 17.5px;
   font-size: 0.9em;
+  
 }
 
 .footer a {
