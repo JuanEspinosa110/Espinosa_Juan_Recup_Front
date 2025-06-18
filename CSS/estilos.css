@@ -1,7 +1,8 @@
 .body {
     margin: 0;
-
 }
+
+
 
 .barra-superior {
     background-color: #548c82; 
@@ -62,7 +63,7 @@
 
 .logo {
   background-color: #94b6ec;
-  padding: 0 30px;
+  padding: 4px 10px;
   display: flex;
   align-items: center;
   clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
@@ -74,6 +75,7 @@
   gap: 20px;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .menu li a {
@@ -356,4 +358,41 @@ input[type="file"] {
 
 .bi-save {
   margin-right: 5px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;  
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  padding: 10px 0;
+  list-style: none;
+  z-index: 1000;
+  min-width: 180px;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+}
+.submenu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.submenu li a:hover {
+  background-color: #548c82;
+  color: white;
+  border-radius: 4px;
+}
+
+.has-submenu > a i {
+  margin-left: 5px;
+  font-size: 0.7em;
+  color: #548c82;
+  position:relative;
 }
