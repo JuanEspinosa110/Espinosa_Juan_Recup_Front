@@ -46,9 +46,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding-right: 10px;
+
+}
+
+.barra-navegacion img {
+
+  height: 50px;
+  padding: 10px;
+  width: 150px;
+
+}
+
+.logo {
+  background-color: #94b6ec;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
 }
 
 .menu {
