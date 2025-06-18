@@ -1,0 +1,21 @@
+.body {
+    margin: 0;
+
+}
+
+.barra-superior {
+    background-color: #548c82;
+    height: 40px;
+    width: 100%;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.barra-superior i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
